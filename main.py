@@ -57,7 +57,7 @@ def get_response(intents_list,intents_json):
             break
     return result
 
-print("|============= Hi! I'm your AI Therapist =============|")
+print("|============= Hi! I'm your LPU Chat bot Assistant =============|")
 print("|============================== Feel Free ============================|")
 print("|================================== To ===============================|")
 print("|=============== Ask for help ================|")
