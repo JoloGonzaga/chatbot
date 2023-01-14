@@ -57,10 +57,10 @@ def get_response(intents_list,intents_json):
             break
     return result
 
-print("|============= Welcome to College Equiry Chatbot System! =============|")
+print("|============= Hi! I'm your AI Therapist =============|")
 print("|============================== Feel Free ============================|")
 print("|================================== To ===============================|")
-print("|=============== Ask your any query about our college ================|")
+print("|=============== Ask for help ================|")
 while True:
     message = input("| You: ")
     if message == "bye" or message == "Goodbye":
