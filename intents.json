@@ -17,7 +17,7 @@
 
 
    {"tag": "Location",
-  "patterns": ["location","where is it located","what is the location of the college"],
+  "patterns": ["location","where is it located","what is the location of the college", "where are you located"],
   "responses": ["Governor's Drive, General Trias, Cavite."]
   },
 
@@ -40,7 +40,11 @@
   "patterns": ["how many classes will be there in a day","how long are the classes?"],
   "responses": ["It will always depends on the students curriculum but each class will be of 1 hour and 30 minutes."]
   },
+  {"tag": "inappropriate",
+    "patterns" : ["fuck you", "bitch", "shut the fuck up"],
+  "responses" : ["Sorry, i think thats inappropriate" , "We dont accept that kind of attitude in our school"]
 
+  },
 
 
   {"tag": "exams",
